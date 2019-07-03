@@ -14,4 +14,14 @@ The flow of this program is to:
 OR
   
   4. see that there's not two photos, thus no open spot
-  5. loop the program a second time ad infinitum.  
+  5. loop the program a second time ad infinitum.
+  
+# How everything runs
+  
+Here's the basics for how I ran everything on the program. 
+  
+## Opening the correct page using Selenium / Webdriver
+  
+Selenium and it's funtion webdriver are incredibly powerful. As I didn't have a direct link to the data I needed (dynamic webpage), I needed to use webdriver to get me to this spot. Initially I was going to use beautifulsoup to scrub data off the page, but webdriver has a getelements function that works perfectly to find all elements of a certain style. 
+  
+  

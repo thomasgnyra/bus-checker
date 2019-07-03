@@ -10,6 +10,8 @@ The flow of this program is to:
   3. count them, if more than two sucess! 
   4a. send me a text if there are more or equal to two (means that there is a spot available)
   5a. terminate program
-  OR
+
+OR
+  
   4b. see that there's not two photos, thus no open spot
   5b. loop the program a second time ad infinitum.  

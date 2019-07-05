@@ -23,5 +23,21 @@ Here's the basics for how I ran everything on the program.
 ## Opening the correct page using Selenium / Webdriver
   
 Selenium and it's funtion webdriver are incredibly powerful. As I didn't have a direct link to the data I needed (dynamic webpage), I needed to use webdriver to get me to this spot. Initially I was going to use beautifulsoup to scrub data off the page, but webdriver has a getelements function that works perfectly to find all elements of a certain style. 
+
+I also used a drop down selector that is part of selenium called select.select_by_visible_text. Very intuitive and easily clicks on the correct link.
+
+## Scrape all images using webdriver / find.elements
+
+This was something i found on another webstie. Essentially i wanted to find all the pictures in the page (some) and match it with one url and count how many matched that URL. this way, if there are more than 1, I know there's a spot! 
+
+I used a loop that first made a list then appeneded another list (called imglist) with all the URLs (src tag). 
+
+## Count and compare loop
+
+If there are more than two, text me (next paragraph). If not, run it back. However i put a 300 second delay to avoid DDOS-ing the govenment. 
+
+## Text with Twilio
+
+This is a bit more black magic-y. You basically use a secure SID to login to a site that knows you're going to text yourself. Pretty powerful and free for development. Twilio has a bunch of examples online
   
   

@@ -45,15 +45,15 @@ while m < 999999999:
     #if loop to count how many images
         if avail_camp >= 2:
             print("nice")
-            account_sid = 'token' #must enter your owb
-            auth_token = 'authtoken'#must enter your owb
+            account_sid = 'token' #must enter your own account token
+            auth_token = 'authtoken'#must enter your own account token
             client = Client(account_sid, auth_token)
 
             message = client.messages \
             .create(
             body='Hey, check the site',
-            from_='+1223456',#must enter your owb
-            to='+12343456'#must enter your owb
+            from_='+1223456',#must enter your own account phone number
+            to='+12343456'#must enter your own number
             )
 
             driver.quit()

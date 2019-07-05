@@ -39,5 +39,11 @@ If there are more than two, text me (next paragraph). If not, run it back. Howev
 ## Text with Twilio
 
 This is a bit more black magic-y. You basically use a secure SID to login to a site that knows you're going to text yourself. Pretty powerful and free for development. Twilio has a bunch of examples online
-  
+
+# Next steps to make this thing better
+
+* Tell me which date is available! This I may need to learn how tables work a bit better.
+* continue checking but don't text me if it's the same date. 
+* End loop when the dates run out (when reservation season is over
+* For some reason the drop down doesn't work for two in the same page. Delay?
   

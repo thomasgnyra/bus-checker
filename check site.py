@@ -11,18 +11,18 @@ m = 0
 while m < 999999999:
 
     driver = webdriver.Chrome()
-    driver.get("https://reservation.pc.gc.ca/Yoho-LakeO'Hara?Calendar")
+    driver.get("Some website")
 
 
     from selenium.webdriver.support.ui import Select
 
     select = Select(driver.find_element_by_id('selResType'))
-    select.select_by_visible_text("Day Use (Guided Hikes, Lake O’Hara Bus, Georgian Bay Islands Ferry)")
+    select.select_by_visible_text("some text")
 
     select = Select(driver.find_element_by_id('selPartySize'))
     select.select_by_visible_text("1")
 
-    driver.get("https://reservation.pc.gc.ca/Yoho-LakeO'Hara?Calendar")
+    driver.get("Website name")
 
     
     n=1
@@ -39,8 +39,8 @@ while m < 999999999:
 
             imglist.append(looper)
 
-            unavail_camp = imglist.count("https://reservation.pc.gc.ca/Images/unavailable_icon20x20.png")
-            avail_camp = imglist.count("https://reservation.pc.gc.ca/Images/available_icon20x20.png")
+            unavail_camp = imglist.count("https://website.com/unavailable_icon20x20.png")
+            avail_camp = imglist.count("https://website.com/Images/available_icon20x20.png")
 
     #if loop to count how many images
         if avail_camp >= 2:
